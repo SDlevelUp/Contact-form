@@ -262,7 +262,7 @@ img {
     object-fit: cover;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 992px) {
     .form {
         grid-template-columns: 1fr;
     }
@@ -272,9 +272,7 @@ img {
         left: initial;
         right: 70px;
     }
-}
 
-@media (max-width: 480px) {
     .big-container {
         padding: 1.5rem;
     }
@@ -296,3 +294,26 @@ img {
         padding: 0.45rem 1.2rem;
     }
 }
+
+/* @media (max-width: 480px) {
+    .big-container {
+        padding: 1.5rem;
+    }
+
+    form,
+    .contact-info {
+        padding: 1.7rem 1.6rem;
+    }
+
+    .title-form {
+        font-size: 1.15rem;
+    }
+
+    .input {
+        padding: 0.45rem 1.2rem;
+    }
+
+    .btn {
+        padding: 0.45rem 1.2rem;
+    }
+} */
