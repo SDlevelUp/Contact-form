@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+    <link rel="stylesheet" href="./css/contactForm.css">
+</head>
+
+<body>
+    <div class="main"></div>
+
+    <div class="big-container">
+        <div class="form">
+            <img src="./img/astronaut.jpg" alt="Form image">
+            <div class="contact-form">
+                <form name="contactForm" autocomplete="off" onsubmit="return validateForm()" action="#">
+                    <h3 class="title-form">Contactez-nous</h3>
+                    <div class="input-container">
+                        <input type="text" name="name" class="input">
+                        <label for="">Nom</label>
+                        <span>Nom</span>
+                    </div>
+                    <div class="input-container">
+                        <input type="email" name="email" class="input">
+                        <label for="">Email</label>
+                        <span>Email</span>
+                    </div>
+                    <div class="input-container">
+                        <input type="tel" name="phone" class="input">
+                        <label for="">Téléphone</label>
+                        <span>Phone</span>
+                    </div>
+                    <div class="input-container textarea">
+                        <textarea name="message" class="input"></textarea>
+                        <label for="">Message</label>
+                        <span>Message</span>
+                    </div>
+                    <input type="submit" value="Envoyer" class="btn">
+                    <span id="error-msg" class="errors"></span>
+                    <span id="success-msg" class="success"></span>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
