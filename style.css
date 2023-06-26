@@ -331,3 +331,21 @@ img {
         margin-top: 1rem;
     }
 }
+
+.success {
+    color: green;
+}
+
+.errors {
+    color: red;
+}
+
+.btn,
+.errors {
+    margin-bottom: 8px;
+}
+
+.btn,
+.success {
+    margin-bottom: 8px;
+}
